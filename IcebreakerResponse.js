@@ -3,8 +3,8 @@ function IcebreakerResponse(email){
 }
 
 Icebreaker.BatchCreate = function (emails) {
-  return emails.map(function(email){
-    return new IcebreakerResponse(email)
+  return emails.map(function(emails){
+    return new IcebreakerResponse(emails)
   })
 
 }
