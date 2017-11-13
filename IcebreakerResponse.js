@@ -2,7 +2,7 @@ function IcebreakerResponse(email){
   this.email = email
 }
 
-Icebreaker.BatchCreate = function (email) {
+IcebreakerResponse.BatchCreate = function (email) {
   let icebreakers = []
 
   emails.forEach(function(email){
